@@ -1,0 +1,14 @@
+.gallery-dialog-container {
+    width: 600px; /* Tamaño predeterminado */
+  }
+  
+  .image-container {
+    overflow: hidden;
+    width: 100%;
+  }
+  
+  .image-container img {
+    max-width: 100%;
+    transition: transform 0.5s ease; /* Animación de transición */
+  }
+  

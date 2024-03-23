@@ -1,0 +1,99 @@
+.content{
+    width: 100%;
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(21, 21, 34);
+}
+.content-cards{
+  
+    display: flex;
+}
+.card{
+    margin: 80px 15px;
+    padding: 5px;
+    border: solid rgb(255, 255, 255);
+    font-weight: 600;
+    font-style: normal;
+ 
+}
+.uno{
+    
+    background-color:  #6cffb3;
+    font-family: "Poppins", sans-serif;
+}
+.dos{
+    font-family: "Poppins", sans-serif;
+    background-color: white;
+}
+.tres{
+    font-family: "Poppins", sans-serif;
+    background-color: white;
+}
+ 
+.subtitulo{
+    color: black;
+}
+ 
+.titulo{
+    font-size: 3.5rem;
+    margin-top: 50px;
+    color:white;
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    text-align: center;
+}
+#contacto{
+    
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.content-contacto{
+    background-color: white;
+    width: 50%;
+    margin-top: 100px;
+    margin-bottom: 150px;
+}
+.icono{
+    width: 30px;
+  
+}
+.content-telefono{
+    background-color: #00bfff;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 15px;
+    padding: 25px;
+}
+.content-whats{
+    background-color: #03c800;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 25px;
+}
+.content-email{
+    background-color: #d09766;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 25px;
+}

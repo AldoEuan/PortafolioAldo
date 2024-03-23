@@ -1,0 +1,11 @@
+<h2 mat-dialog-title>Imágenes del Proyecto</h2>
+<div mat-dialog-content class="gallery-dialog-container">
+  <div class="image-container">
+    <img [src]="currentImage" alt="Imagen" >
+  </div>
+</div>
+<div mat-dialog-actions>
+  <button mat-raised-button color="accent" (click)="previousImage()" [disabled]="currentIndex === 0">Anterior</button>
+  <button mat-raised-button color="accent" (click)="nextImage()" [disabled]="currentIndex === data.images.length - 1">Siguiente</button>
+  <button mat-raised-button color="warn" [mat-dialog-close]="'close'">Cerrar</button>
+</div>
