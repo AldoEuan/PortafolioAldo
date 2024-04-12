@@ -50,3 +50,33 @@
         border:solid #6cffb3;
     }
 }
+@media only screen and (max-width: 400px) {
+    .container-body{
+        display: flex;
+       
+        padding-top: 100px;
+    }
+    .container-card-content {
+        width: 50%;
+        
+      
+    } 
+    .container-titulo{
+        width: 100%;
+        padding: 0;
+        margin-bottom: 5px;
+    }  
+    .container-descripcion{
+        width: 100%;
+        padding: 0;
+    }
+    .container-img {
+        width: 4%;
+        padding: 50px;
+        .foto{
+            width: 100px;
+            border-radius: 250px;
+            border:solid #6cffb3;
+        }
+    }
+}

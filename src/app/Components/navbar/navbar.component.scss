@@ -38,4 +38,17 @@
 .nav-links li a {
     transition: color 0.3s ease; /* Transición para el color del texto */
   }
-  
+
+  @media only screen and (max-width: 400px) {
+    .navbar {
+        width: 400px;
+        position: fixed;
+        flex-direction: row;
+        visibility: hidden;
+        color: #fff;
+        padding: 10px 0;
+        
+    }
+    
+
+  }
